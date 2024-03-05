@@ -9,7 +9,7 @@ int main(){
                 }
 
                 else{
-                    if(j==1 || j==5){
+                    if(j==1 || j==n){
                         printf("* ");
                     }
                     else{

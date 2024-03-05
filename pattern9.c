@@ -9,7 +9,23 @@ int l(){
     printf("*");
     j++;}
 }
+int h(){
+    int i=0,j=0;
+    while(i<=10){
+        while(j<=5){
+            if(j==0 || j==5){
+                printf("*");}
+            else {
+                printf("");
+            }
+            j++;
+            
 
+        }
+       printf("\n");
+       i++; 
+    }
+}
 
 int a(){
     int i=0;
@@ -18,5 +34,6 @@ int a(){
 
 int main()
 {
-    // l();
+    l();
+    h();
 }
