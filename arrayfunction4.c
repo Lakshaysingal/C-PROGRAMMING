@@ -37,12 +37,9 @@ int main(){
                     // printf("0 ");
                     printf("%d ",b[i][j]);
                 }
-                
-
-            
-    }
-    printf("\n");
-      }
+                }
+        printf("\n");
+}
 
 
 return 0;
@@ -51,3 +48,5 @@ return 0;
 
 
 }
+
+// give the avg of matrix and new array acc to   elemnet of previous array if it is greater than avg it give '1' else it give '0' 
