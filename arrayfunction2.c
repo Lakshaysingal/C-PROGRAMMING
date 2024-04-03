@@ -36,4 +36,4 @@ printf("highest marks is %d ",maxvalue);
     
 }
 
-// give the sum of max value of array1 and array 2
+// give the sum of max value of array1 and max value of array 2
