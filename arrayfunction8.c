@@ -35,6 +35,8 @@ int main(){
     
 
 
-
+return 0;
 
 }
+
+// give the sum of all even and odd element of array
