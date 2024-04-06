@@ -1,25 +1,7 @@
 #include<stdio.h>
-void func1(int arr[],int n){
-    int even =0 ,odd =0;
-     for(int i=0;i<n;i++){
-        if(arr[i]%2==0){
-            even+=arr[i];
 
-        }
-        else{
-            odd+=arr[i];
-        }  
 
-        
-        
-        }
-
-    printf("sum of even element is %d\n",even);
-    printf("sum of odd element is %d\n",odd);
-
-}
-
-void func2(int a[],int n){
+void func(int a[],int n){
     int sum=0;
      for(int i=0;i<n;i++){
         sum+=a[i];
@@ -77,8 +59,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    func1(arr,n);
-    func2(arr,n);
+    
+        func(arr,n);
 
     
 
