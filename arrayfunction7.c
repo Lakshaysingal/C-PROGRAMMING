@@ -34,3 +34,4 @@ int main(){
 
     }
 
+// output give that the an element is found in an array or how many times 
