@@ -16,9 +16,6 @@ void search(int n,int k,int a[]){
     }
 }
 
-
-
-
 int main(){
     int n,a[100];
     printf("enter the value of size of array : ");
