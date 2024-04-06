@@ -38,7 +38,7 @@ void func(int a[],int n){
             printf("sunday");
             break;
         default :
-            printf("wrong input ");
+            printf("Invalid ");
             break;
     }
 
@@ -68,3 +68,5 @@ int main(){
 
 
 }
+
+// give the output that it check left most digit of sum of elements of array if it is between 1-7 it give days from monday to sunday acc to no otherwise it give "invalid" 
