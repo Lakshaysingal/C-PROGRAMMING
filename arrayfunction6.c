@@ -58,3 +58,5 @@ int main(){
 
 return 0;
 }
+
+// give the output of max and min of corner elementand and max and min of other remaining element in 2d array 
