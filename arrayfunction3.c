@@ -1,19 +1,28 @@
 #include<stdio.h>
 
 int MAX(int c[],int n){
-    int  max1=0;
-     int max2=0;
-     for(int i=0;i<n;i++){
-    if(c[i]>max1){
-
-        max1=c[i];
-    }
-
     
-}
+  int max1 = c[0];
+    int max2 = c[1];
+    if (max1 < max2) {
+        int temp = max1;
+        max1 = max2;
+        max2 = temp;
+    }
+    for (int i = 2; i < n; i++) {
+        if (c[i] > max1) {
+            max2 = max1;
+            max1 = c[i];
+        } else if (c[i] > max2) {
+            max2 = c[i];
+        }
+    }
     return max1 + max2;
-
 }
+    
+
+
+
 int main(){
     int n;
     printf("enter the size of array : ");
@@ -42,7 +51,7 @@ int main(){
     // }
     
 
-    int res= MAX(c,n);
+    int res= MAX(c,n*2);
 
 printf("highest marks is %d ",res);
 
