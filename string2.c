@@ -10,12 +10,23 @@ int main(){
 
     if(strlen(a) > strlen(b)){
         n= strlen(a);
-        printf("%c",a[n/2]);
+        if(n%2==0){
+        printf("%c %c",a[(n-1)/2],a[n/2]);
+          }
+        else{
+            printf("%c",a[n/2]);
+        }
     }
     else{
 
         n=strlen(b);
-        printf("%c",b[n/2]);
+         if(n%2==0){
+        printf("%c %c",b[(n-1)/2],b[n/2]);
+          }
+        else{
+            printf("%c",b[n/2]);
+        }
+        
     }
 
 
