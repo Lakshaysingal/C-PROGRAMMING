@@ -8,20 +8,21 @@ int fib(int n){
         return 1;
     }
     else{
-        return fib
+        return fib(n-1) + fib(n-2);
     }
     
 }
 
 int main(){
-    int main(){
+    
     int n;
+    printf("enter the no : ");
     scanf("%d",&n);
     int res;
     res = fib(n);
-    printf("%d",res);
+    printf("fibbonaci no at %d position is %d ",n,res);
 }
 
 
+// fibonnaci no bu recursive function 
 
-}
