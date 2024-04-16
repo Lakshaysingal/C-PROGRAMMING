@@ -11,9 +11,13 @@ int fact(int n){
 
 int main(){
     int n;
+    printf("enter the no : ");
     scanf("%d",&n);
     int res;
     res = fact(n);
-    printf("%d",res);
+    printf("factorial of %d is %d ",n,res);
 }
 
+
+
+// factoriol by recursive function 
