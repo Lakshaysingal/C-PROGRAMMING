@@ -24,5 +24,5 @@ int main(){
 }
 
 
-// fibonnaci no bu recursive function 
+// fibonnaci no by recursive function 
 
