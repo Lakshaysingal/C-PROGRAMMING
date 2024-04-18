@@ -21,3 +21,6 @@
 //     printf("%s",strupr(strrev(a)));
 //     return 0;
 // }
+
+
+// string basic code 
