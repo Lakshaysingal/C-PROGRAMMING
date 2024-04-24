@@ -13,12 +13,22 @@ int main(){
     
     int i=1,a=1,b=1,c=0,totalbricks=0;
 
-    while(c<maxbrick){
+    while(c<=maxbrick){
         totalbricks+=c;
         a=b;
         b=c;
         c=a+b;
+         int row,space;
+        for(row=0;row<i;row++){
+            for(space=0;space<c;space++){
+                printf("%d",c);
+            }
+        printf("\n");
+        }
+
         i++;
+      
+
     }
 
     int totalcost = cost*totalbricks;
@@ -26,4 +36,6 @@ int main(){
     printf("no of brick in base layer %d\n",b);
     printf("total no of brick %d\n",totalbricks);
     printf("cost of brick %d\n",totalcost);
+
+     
 }
