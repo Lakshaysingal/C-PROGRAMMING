@@ -21,7 +21,8 @@ int main(){
     }
 
     int totalcost = cost*totalbricks;
+
     printf("no of brick in base layer %d\n",b);
-    printf("total no of brick %d",totalbricks);
-    printf("cost of brick %d",totalcost);
+    printf("total no of brick %d\n",totalbricks);
+    printf("cost of brick %d\n",totalcost);
 }
