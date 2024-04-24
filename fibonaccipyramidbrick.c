@@ -8,6 +8,7 @@ int main(){
     printf("enter the cost of brick : ");
     scanf("%d",&cost);
 
+
     int maxbrick = (basearea/size);
     
     int i=1,a=1,b=1,c=0,totalbricks=0;
