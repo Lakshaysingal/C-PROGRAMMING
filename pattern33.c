@@ -11,7 +11,7 @@ int n;
     }
     int j=1;
     while(j<=n-i+1){
-        printf("*");
+        printf("%d",i);
         j++;
     }
 
@@ -21,3 +21,8 @@ int n;
     return 0;
   
 }
+
+// 1111
+//  222
+//   33
+//    4
