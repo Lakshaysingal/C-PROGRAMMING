@@ -8,7 +8,7 @@ int n;
   while(i<=n){
     int j=1;
     while(j<=i){
-      printf("%d ",i+j-1);
+      printf("%d ",i-j+1);
       j++;
       
     }
@@ -21,8 +21,3 @@ int n;
   
 
 }
-
-1 
-2 3 
-3 4 5 
-4 5 6 7 
