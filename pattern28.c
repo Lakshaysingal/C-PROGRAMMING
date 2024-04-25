@@ -1,6 +1,4 @@
 #include<stdio.h>
-
-
 int main(){
 int n;
   scanf("%d",&n);
@@ -8,13 +6,11 @@ int n;
   while(i<=n){
     int j=1;
     while(j<=i){
-        char ch ='A'+i-1;
+       char ch ='A'+i+j-2;
       printf("%c ",ch);
       j++;
      
-      
-      
-    }
+      }
     printf("\n");
     i++;
     
@@ -24,3 +20,9 @@ int n;
   
 
 }
+
+
+// A 
+// B C 
+// C D E 
+// D E F G 

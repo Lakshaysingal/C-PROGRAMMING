@@ -4,13 +4,14 @@
 int main(){
 int n;
   scanf("%d",&n);
-  int i=1;
+  int i=1,value=0;
   while(i<=n){
     int j=1;
     while(j<=i){
-        char ch ='A'+i-1;
+        char ch ='A'+value;
       printf("%c ",ch);
       j++;
+      value++;
      
       
       
@@ -24,3 +25,9 @@ int n;
   
 
 }
+
+
+// A
+// B C
+// D E F
+// G H I J
