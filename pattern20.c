@@ -4,13 +4,13 @@
 int main(){
 int n;
   scanf("%d",&n);
-  int i=1;
+  int i=1,count=1;
   while(i<=n){
     int j=1;
     while(j<=i){
-      printf("%d",i);
+      printf("%d ",count);
       j++;
-      
+      count++;
     }
     printf("\n");
     i++;
@@ -21,8 +21,3 @@ int n;
   
 
 }
-
-// 1
-// 22
-// 333
-// 4444
