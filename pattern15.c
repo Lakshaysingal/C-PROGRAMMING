@@ -6,7 +6,7 @@ int n;
   while(i<=n){
     int j=1;
     while(j<=n){
-      printf("%d",j);
+      printf("%d",n-j+1);
       j++;
     }
     printf("\n");
@@ -17,3 +17,9 @@ int n;
   
 
 }
+
+
+// 4321
+// 4321
+// 4321
+// 4321
