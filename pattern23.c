@@ -8,7 +8,7 @@ int n;
   while(i<=n){
     int j=1;
     while(j<=n){
-        char ch='A'+i-1;
+        char ch ='A'+j-1;
       printf("%c ",ch);
       j++;
       
@@ -23,8 +23,7 @@ int n;
 
 }
 
-// A A A A
-// B B B B
-// C C C C
-// D D D D
-
+A B C D
+A B C D
+A B C D
+A B C D
