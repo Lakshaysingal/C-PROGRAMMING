@@ -7,12 +7,17 @@ struct practise{
 
 int main(){
     struct practise ques;
-        scanf("%d %d",&ques.n,&ques.m);
+    printf("enter the size of array 1 : ");
+        scanf("%d",&ques.n);
+    printf("enter the size of array 2 : ");
+        scanf("%d",&ques.m);
 
+    printf("enter the value of element of array1 \n");
     for(int i=0;i<ques.n;i++){
         scanf("%d",&ques.arr1[i]);
 
     }
+    printf("enter the value of element of array2 \n");
     for(int i=0;i<ques.m;i++){
         scanf("%d",&ques.arr2[i]);
 
@@ -27,18 +32,22 @@ int main(){
             sum2+=pd2;
     }
 
-    printf("%d\n%d\n",sum1,sum2);
+    printf("sum of differnece between consecutive element in array 1 : %d\n",sum1);
+    printf("sum of differnece between consecutive element in array 1 : %d\n",sum2);
+    
 
     int no=sum1+sum2,rem,sum3=0;
-
+    printf("sum of both array 1 and array 2 consecutive  difference : %d\n",no);
     while(no>0){
         rem=no%10;
         sum3+=(rem*rem*rem);
         no=no/10;
     }
 
-    printf("%d",sum3);
+    printf("the sum of cube of digit of both array differnces : %d",sum3);
 
 
-
+return 0;
 }
+
+// it will give the sum of cube of differnce of consecutive elemnt of both array 
