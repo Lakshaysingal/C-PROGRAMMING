@@ -1,7 +1,7 @@
 #include<stdio.h>
 struct large{
-    // int n;
-    int arr[10];
+    int n;
+    int arr[100];
 
 };
 
@@ -45,9 +45,12 @@ void armstrong(int x){
 int main(){
     struct large no;
     int max=0;
+    
+    printf("enter the size of array : ");
+    scanf("%d",&no.n);
     printf("enter the value of element of array : \n");
 
-    for(int i=0;i<10;i++){
+    for(int i=0;i<no.n;i++){
         scanf("%d",&no.arr[i]);
         if(no.arr[i]>max){
             max=no.arr[i];
@@ -66,3 +69,6 @@ int main(){
     
 
 }
+
+
+// it will check the max elemnt of array is  palindrome and armstrong or not 
