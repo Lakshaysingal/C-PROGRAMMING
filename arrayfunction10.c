@@ -3,7 +3,7 @@ int main(){
     int a[3],n,helfine = 0,insfine=0,dlfine=0;
     printf("enter the no of cases : ");
     scanf("%d",&n);
-    for(int i=1;i<=n;i++){
+    for(int i=0;i<n;i++){
         printf("Enter fines for case %d (0 for not fined, 1 for fined):\n", i + 1);
         for(int j=0;j<3;j++){
         scanf("%d",&a[j]);
@@ -32,4 +32,4 @@ int main(){
     return 0;
 }
 
-// this code gice the total fine of a person 
+// this code give the total fine of a person 
