@@ -2,7 +2,7 @@
 
 int main(){
     int n;
-    printf("enter the no :");
+    printf("enter the no acc to month : ");
     scanf("%d",&n);
     switch(n){
         case 1:
@@ -39,7 +39,7 @@ int main(){
         printf("nov");
         break;
         case 12:
-        printf("dec ");
+        printf("dec");
         break;
         default:
         printf("wrong input");

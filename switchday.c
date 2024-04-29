@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n;
-    printf("enter no:");
+    printf("enter the no acc to days : ");
     scanf("%d",&n);
     switch(n){
     case 1:
