@@ -22,6 +22,14 @@ int main(){
     for(int i=0;i<class.m;i++){
         scanf("%d",&class.arr2[i]);
     }
+    printf("the elements of array1 :\n");
+    for(int i=0;i<class.n;i++){
+        printf("%d",class.arr1[i]);
+    }
+    printf("the elements of array2 :\n");
+    for(int i=0;i<class.m;i++){
+        printf("%d",class.arr2[i]);
+    }
     int count=0;
     int counted[1000]={0};
 
