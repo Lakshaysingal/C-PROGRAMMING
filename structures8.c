@@ -24,6 +24,8 @@ int main(){
     }
     int count=0;
     int counted[1000]={0};
+
+    printf("most repeated elements of array1 : \n");
     for(int i=0;i<class.n;i++){
         if(counted[class.arr1[i]]==0){
         for(int j=0;j<class.n;j++){
@@ -43,6 +45,7 @@ int main(){
 
 int count1=0;
 int counted2[1000]={0};
+printf("most repeated elements of array2 : \n");
      for(int i=0;i<class.m;i++){
         if(counted2[class.arr2[i]]==0){
         for(int j=0;j<class.m;j++){
