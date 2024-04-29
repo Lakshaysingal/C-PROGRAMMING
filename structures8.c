@@ -9,11 +9,16 @@ int main(){
 
     struct arr class;
 
-    scanf("%d %d",&class.n,&class.m);
+    printf("enter the size of array1 : ");
+    scanf("%d",&class.n);
+    printf("enter the size of array2 : ");
+    scanf("%d",&class.m);
 
+    printf("enter the elements of array1 :\n");
     for(int i=0;i<class.n;i++){
         scanf("%d",&class.arr1[i]);
     }
+    printf("enter the elements of array2 :\n");
     for(int i=0;i<class.m;i++){
         scanf("%d",&class.arr2[i]);
     }
