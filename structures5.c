@@ -50,4 +50,4 @@ int main(){
 return 0;
 }
 
-// it will give the sum of cube of differnce of consecutive elemnt of both array 
+// it will give the sum of cube of differnce of consecutive element of both array 
