@@ -65,7 +65,7 @@ int main(){
     printf("student details :\n");
     for(int i=0;i<n;i++){
         
-        printf("details of student %d :\n",i+1);
+        printf("\ndetails of student %d :\n",i+1);
         printf("name : %s",class[i].name);
         printf("rollno :%d\n",class[i].rollno);
         printf("semester :%d\n",class[i].class1.sem);
@@ -73,7 +73,7 @@ int main(){
         printf("average marks :%d\n",class[i].class1.avgmarks);
         printf("mobile no :%d\n",class[i].class2.phone);
         printf("father name : %s",class[i].class2.fname);
-        printf("mother name :%s",class[i].class2.mname);
+        printf("mother name : %s",class[i].class2.mname);
         printf("age : %d\n",class[i].class2.age);
     }
 
@@ -83,3 +83,6 @@ int main(){
 
 
 }
+
+
+// student details code in structures 
