@@ -27,12 +27,15 @@ int main(){
     int n;
     printf("enter the no of students :");
     scanf("%d",&n);
+    getchar();
     struct student class[n];
     for(int i=0;i<n;i++){
         printf("enter your name :");
-        scanf(" %s",&class[i].name);
+        // scanf(" %s",&class[i].name);
+        fgets(class[i].name,50,stdin);
         printf("enter your roll no: ");
-        scanf("%d",&class[i].rollno);
+        scanf(" %d",&class[i].rollno);
+        getchar();
     }
     
 
@@ -58,7 +61,7 @@ int main(){
     printf("student details :\n");
     for(int i=0;i<n;i++){
         
-        printf("stdunt details of  %d :",i+1);
+        printf("details of  %d :",i+1);
         printf("%s\n",class[i].name);
         printf("%d\n",class[i].rollno);
         printf("%d\n",class[i].class1.sem);
