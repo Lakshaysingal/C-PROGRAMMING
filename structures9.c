@@ -50,32 +50,34 @@ int main(){
      for(int i=0;i<n;i++){
     printf("enter phone no  :");
     scanf("%d",&class[i].class2.phone);
+    getchar();
     printf("enter father name : ");
     // scanf(" %s",&class[i].class2.fname);
     fgets(class[i].class2.fname,50,stdin);
-    getchar();
     printf("enter mother name :");
     // scanf(" %s",&class[i].class2.mname);
     fgets(class[i].class2.mname,50,stdin);
-    getchar();
     printf("enter your age :");
     scanf("%d",&class[i].class2.age);
+    getchar();
     }
 
     printf("student details :\n");
     for(int i=0;i<n;i++){
         
         printf("details of student %d :\n",i+1);
-        printf("name : %s\n",class[i].name);
+        printf("name : %s",class[i].name);
         printf("rollno :%d\n",class[i].rollno);
         printf("semester :%d\n",class[i].class1.sem);
         printf("group :%d\n",class[i].class1.group);
         printf("average marks :%d\n",class[i].class1.avgmarks);
         printf("mobile no :%d\n",class[i].class2.phone);
-        printf("father name : %s\n",class[i].class2.fname);
-        printf("mother name :%s\n",class[i].class2.mname);
+        printf("father name : %s",class[i].class2.fname);
+        printf("mother name :%s",class[i].class2.mname);
         printf("age : %d\n",class[i].class2.age);
     }
+
+
     printf("thank you");
 
 
