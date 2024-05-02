@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-        int arr[100],n,k,p;
+        int arr[100],n,p;
     printf("enter the size of an array : ");
     scanf("%d",&n);
 
@@ -13,20 +13,18 @@ int main(){
         printf("%d ",arr[i]);
     }
 
-    printf("\nenter the index on which element insert : ");
+    printf("\nenter the index you want to delete : ");
     scanf("%d",&p);
 
-    printf("\nenter the element to insert : ");
-    scanf("%d",&k);
-
-    for(int i=n;i>p;i--){
-        arr[i]=arr[i-1];
+    
+    for(int i=p;i<n-1;i++){
+        arr[i]=arr[i+1];
     }
-    arr[p]=k;
+    
+    
 
-
-    printf("array after insert : \n");
-    for (int i=0;i<n+1;i++){
+    printf("array after delete an index  : \n");
+    for (int i=0;i<n-1;i++){
         printf("%d ",arr[i]);
     }
 
@@ -36,4 +34,4 @@ int main(){
     return 0;
 }
 
-// insert an element on given index 
+// delete an element on index you enter 
