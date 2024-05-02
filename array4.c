@@ -16,7 +16,7 @@ int main(){
     for(int i=0;i<n;i++){
         int count=0;
         if(counted[arr[i]]==0){
-        for(int j=0;j<n-1;j++){
+        for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
             }
@@ -25,4 +25,8 @@ int main(){
     }
 
     }
+    return 0;
 }
+
+// give the frequency of element of array 
+

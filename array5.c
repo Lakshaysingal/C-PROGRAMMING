@@ -12,17 +12,23 @@ int main(){
     for (int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
-    int counted[100]={0};
+
     for(int i=0;i<n;i++){
-        int count=0;
-        if(counted[arr[i]]==0){
         for(int j=0;j<n-1;j++){
-            if(arr[i]==arr[j]){
-                count++;
+            if(arr[j]>=arr[j+1]){
+                int temp=arr[j+1];
+                arr[j+1]=arr[j];
+                arr[j]=temp;
             }
-             counted[arr[i]]=1;}
-        printf("\nfrequency of element %d : %d ",arr[i],count);
+        }
     }
 
+    printf("The element of array after sort in ascending order :\n");
+    for (int i=0;i<n;i++){
+        printf("%d ",arr[i]);
     }
+
+    return 0;
 }
+
+// sort element in ascending order 
