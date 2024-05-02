@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include<limits.h>
 int main(){
    
-    int arr[100],n,max1=0,max2=0;
+    int arr[100],n,min1=INT_MAX,min2=INT_MAX;
     printf("enter the size of an array : ");
     scanf("%d",&n);
 
@@ -15,16 +16,18 @@ int main(){
     }
 
     for(int i=0;i<n;i++){
-        if(max1<arr[i]){
-            max2=max1;
-            max1=arr[i];
+        if(min1>arr[i]){
+            min2=min1;
+            min1=arr[i];
         }
-        else if (max2<arr[i]){
-            max2=arr[i];
+        else if (min2>arr[i]){
+            min2=arr[i];
         }
     }
 
-    printf("\nlarget element of array is : %d\n",max1);
-    printf("second larget element of array is : %d",max2);
+    printf("\nsmallest element of array is : %d\n",min1);
+    printf("second smallest  element of array is : %d",min2);
 
 }
+
+// smallest and second smallest element in array 

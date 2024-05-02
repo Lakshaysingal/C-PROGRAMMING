@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include<limits.h>
 int main(){
    
-    int arr[100],n,max1=0,max2=0;
+    int arr[100],n,max1=INT_MIN,max2=INT_MIN;
     printf("enter the size of an array : ");
     scanf("%d",&n);
 
@@ -28,3 +29,6 @@ int main(){
     printf("second larget element of array is : %d",max2);
 
 }
+
+
+// largest and second largest element of array 
