@@ -18,14 +18,6 @@ int main(){
         a=b;
         b=c;
         c=a+b;
-         int row,space;
-        for(row=0;row<i;row++){
-            for(space=0;space<c;space++){
-                printf("%d",c);
-            }
-        printf("\n");
-        }
-
         i++;
       
 
