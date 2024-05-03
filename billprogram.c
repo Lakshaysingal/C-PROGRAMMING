@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     float unit,totalbill;
+    printf("enter the unit you consumed : ");
     scanf("%f",&unit);
     
     if(unit<=100){
@@ -24,5 +25,7 @@ int main(){
         totalbill=((totalbill*10)/100) + totalbill;
     }
    
-    printf("%.2f",totalbill);
+    printf("Total bill : %.2f",totalbill);
 }
+
+// calculate the total bill 
