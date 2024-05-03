@@ -39,13 +39,13 @@ int main(){
     }
     scanf("%s",&object.a);
     scanf("%s",&object.b);
-    printf("%s",object.a);
-    printf("%s",object.b);
+    // printf("%s",object.a);
+    // printf("%s",object.b);
 
    printf("%s\n",strcat(object.a,object.b));
    printf("%s\n",strcat(object.b,object.a));
-    stingpalidrome(strcat(object.a,object.b));
-    stingpalidrome(strcat(object.b,object.a));
+    // stingpalidrome(strcat(object.a,object.b));
+    // stingpalidrome(strcat(object.b,object.a));
     printf("\nsum %d\n",sum);
  
  
