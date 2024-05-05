@@ -2,8 +2,9 @@
 int main(){
     char a[100];
     printf("enter the string : ");
-    // gets(a);
+    gets(a);
     // scanf("%s",a);
+    
 
     int length=0;
 
