@@ -32,6 +32,7 @@ void stingpalidrome(char a[100]){
 
 int main(){
     int sum=0,prod=1;
+    char t[100];
     struct s1 object;
     for(int i=0;i<5;i++){
         scanf("%d",&object.arr[i]);
@@ -41,11 +42,13 @@ int main(){
     scanf("%s",&object.b);
     // printf("%s",object.a);
     // printf("%s",object.b);
+    strcpy(t,object.a);
+    // printf("%s\n",t);
 
-   printf("%s\n",strcat(object.a,object.b));
-   printf("%s\n",strcat(object.b,object.a));
-    // stingpalidrome(strcat(object.a,object.b));
-    // stingpalidrome(strcat(object.b,object.a));
+//    printf("%s\n",strcat(object.a,object.b));
+//    printf("%s\n",strcat(object.b,t));
+    stingpalidrome(strcat(object.a,object.b));
+    stingpalidrome(strcat(object.b,t));
     printf("\nsum %d\n",sum);
  
  
