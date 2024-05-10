@@ -48,8 +48,8 @@ int main(){
             printf("%d %d",class.arr1[i],count);
             printf("\n");
         }
-        count=0;
         counted[class.arr1[i]]=1;
+        count=0;
     }
     }
 

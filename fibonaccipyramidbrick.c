@@ -1,4 +1,15 @@
 #include<stdio.h>
+
+
+int fib(int n){
+    if(n<=1){
+        return n;
+    }
+
+    return fib(n-1)+fib(n-2);
+
+
+}
 int main(){
     int basearea,size,cost;
     printf("enter the base area : ");
@@ -28,6 +39,21 @@ int main(){
     printf("no of brick in base layer %d\n",b);
     printf("total no of brick %d\n",totalbricks);
     printf("cost of brick %d\n",totalcost);
+
+
+
+    for(int i=0;i<b;i++){
+        int res = fib(i);
+    if(fib(i)<=b){
+        for(int j=0;j<b-i;j++){
+            printf(" ");
+        }
+        for(int k=0;k<fib(i);k++){
+            printf("%d",res);
+
+        }
+        printf("\n");
+    }}
 
      
 }
