@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<ctype.h>
 
 int main(){
     char a[100];
@@ -8,24 +9,22 @@ int main(){
     printf("enter the string ");
     fgets(a,100,stdin);
 
-    for(int i=1;a[i]!='\0';i++){
+    for(int i=0;a[i]!='\0';i++){
+        char ch = tolower(a[i]);
+
+        
         if(a[i]=='a'|| a[i]=='i' || a[i]=='e'||a[i]=='o'||a[i]=='u'){
             v++;
         }
-        else if(a[i]=='A'||a[i]=='I'||a[i]=='E'||a[i]=='O'||a[i]=='U'){
-            v++;
-        }
-        else if(a[i]=='!'||a[i]=='@'||a[i]=='#'||a[i]=='$'||a[i]=='%'||a[i]=='^'||a[i]=='&'||a[i]=='*'||a[i]=='('||a[i]==')'){
-            continue;
-        }
-        else if( a[i]=='+'||a[i]=='-'||a[i]=='_'||a[i]=='{'||a[i]=='}'|| a[i]=='['||a[i]==']'|| a[i]=='?') {
-            continue;
-        }
-        else{
+        else if ( ch>='a' && ch<='z'){
             c++;
         }
+        
     }
     
         printf("%d %d",v,c);
 
 }
+
+
+// count the vowels and consonents in string 
