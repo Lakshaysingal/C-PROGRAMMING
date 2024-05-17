@@ -3,7 +3,10 @@
 int main(){
     char a[100];
 
-    scanf("%s",a);
+
+    printf("enter the string ");
+    // scanf("%s",a);
+    fgets(a,100,stdin);
 
      int n1=0;
     
@@ -28,3 +31,5 @@ int main(){
 
     printf("%s",a);
 }
+
+// it delete the char which is repeat in string 
