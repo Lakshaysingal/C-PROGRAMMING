@@ -9,14 +9,16 @@ int main(){
     printf("enter the string ");
     fgets(a,100,stdin);
 
-    for(int i=0;a[i]!='\0';i++){
-        char ch = tolower(a[i]);
+    a[strlen(a)-1]='\0';
 
+    for(int i=0;a[i]!='\0';i++){
+
+            
         
-        if(a[i]=='a'|| a[i]=='i' || a[i]=='e'||a[i]=='o'||a[i]=='u'){
+        if(a[i]=='a'|| a[i]=='i' || a[i]=='e'||a[i]=='o'||a[i]=='u'|| a[i]=='A'|| a[i]=='I' || a[i]=='E'||a[i]=='O'||a[i]=='U'){
             v++;
         }
-        else if ( ch>='a' && ch<='z'){
+        else if ( (a[i]>= 'a' && a[i]<='z') || (a[i]>='A' && a[i]<='Z')  ){
             c++;
         }
         
