@@ -18,7 +18,7 @@ int main(){
 
 
 
-    printf("frequency of each string : \n")
+    printf("frequency of each string : \n");
     for(int i=0;a[i]!='\0';i++){
         if(t[a[i]]==0){
         for(int j=0;j<strlen(a);j++){
@@ -37,7 +37,11 @@ int main(){
         }
         }
 
-        printf("\n %d",strlen(a));
+        // printf("\n %d",strlen(a));
+
+
+
+        return 0;
     }
 
 
