@@ -22,7 +22,8 @@ int main(){
 
 
     }
-        printf("%s",a);
+        printf("%s\n",a);
+        printf("%d",strlen(a));
 
 
 
