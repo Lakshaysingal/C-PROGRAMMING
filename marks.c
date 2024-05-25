@@ -30,7 +30,33 @@ int main(){
     }
 
 
-    printf("%s %s %s\n",a,b,c);
+    // printf("%s %s %s\n",a,b,c);
 
-    printf("%d%d%d",sum1,sum2,sum3);
+    // printf("%d%d%d",sum1,sum2,sum3);
+    
+    if(sum1>sum2 && sum1>sum3){
+        printf("%s %d ",a,sum1);
+    }
+    else if(sum2>sum3 && sum2>sum1){
+        printf("%s %d ",b,sum2);
+    }
+    else if(sum3>sum1 && sum3>sum2){
+        printf("%s %d",c,sum3);
+    }
+    else if (sum1==sum2 && sum2==sum3){
+        printf("%s %s %s\n",a,b,c);
+        printf("%d %d %d",sum1,sum2,sum3);
+    }
+    else if(sum1==sum2){
+        printf("%s %d \n ",a,sum1);
+        printf("%s %d ",b,sum2);
+    }
+     else if(sum2==sum3){
+        printf("%s %d \n ",b,sum2);
+        printf("%s %d ",c,sum3);
+    }
+    else if  {
+        printf("%s %d \n ",a,sum1);
+        printf("%s %d",c,sum3);
+    }
 }
