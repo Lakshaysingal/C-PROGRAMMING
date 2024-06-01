@@ -6,9 +6,10 @@ int main(){
     char a[100];
     
     printf("enter the string ");
-    fgets(a,100,stdin);
+    // fgets(a,100,stdin);
+    scanf("%[^\n]",a);
 
-    a[strlen(a)-1]='\0';
+    // a[strlen(a)-1]='\0';
 
     printf("%s\n",a);
 
