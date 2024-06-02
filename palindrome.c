@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main(){
     int i = 0;
     int num,rev=0,rem,temp;
@@ -17,3 +18,6 @@ int main(){
         printf("it  is not palindrome");
     }
 }
+
+
+// palindrome no
