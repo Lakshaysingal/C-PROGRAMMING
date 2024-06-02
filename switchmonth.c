@@ -54,7 +54,7 @@ int main(){
   }
     else 
     {
-        printf("29 days ");
+        printf("28 days or 29 days");
     }
 
 
