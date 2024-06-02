@@ -12,4 +12,4 @@ int main(){
 
 
 
-    // terniary operator 
+// terniary operator 
