@@ -32,7 +32,7 @@ int main(){
 
         }
 
-        printf("%c %d\n",a[i],count);
+        printf("'%c' %d\n",a[i],count);
         count=0 ;
         }
         }
