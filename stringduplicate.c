@@ -33,3 +33,23 @@ int main(){
 }
 
 // it delete the char which is repeat in string 
+
+
+
+// another method to do 
+
+
+
+
+// int count[256]={0};
+
+// for(int i=0;i<strlen(a);i++){
+//     if(count[a[i]]==0){
+//         printf("%c",a[i]);
+//         count[a[i]]=1;
+//     }
+// }
+
+
+// }
+
