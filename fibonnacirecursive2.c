@@ -24,4 +24,4 @@ int main(){
 }
 
 
-// su of fibonnaci no by recursive function 
+// sum of fibonnaci no by recursive function
