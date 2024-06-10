@@ -6,8 +6,8 @@ int main(){
  gets(a);
  strcpy(b,a);
  strrev(a);
-//  printf("%s",a);
-//  printf("%s",b);
+ printf("%s",a);
+ printf("%s",b);
 if(!strcmp(a,b)){
     printf("palindrome");
 }

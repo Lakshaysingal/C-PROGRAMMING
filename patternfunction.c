@@ -54,6 +54,7 @@ int main(){
 
 // For n = 4, the output of the code will be:
 
+
 // ```
 // 1 
 // 0 1 
