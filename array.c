@@ -1,5 +1,5 @@
-#include<stdio.h>
-int main(){
+#include<stdio.h> 
+int main(){ 
 int  a[5] ,sum =0 ,max= 0 ,min=a[0];
 printf("enter the value of element of array \n");
      for(int i=0;i<5;i++){
